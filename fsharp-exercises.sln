@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OrderPlacing", "OrderPlacing\OrderPlacing.fsproj", "{22237A72-E997-4A00-9730-6BE6DFFA7747}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "OrderPlacing.Tests", "OrderPlacing.Tests\OrderPlacing.Tests.fsproj", "{341565E4-F088-4A43-8A81-A01148733218}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22237A72-E997-4A00-9730-6BE6DFFA7747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22237A72-E997-4A00-9730-6BE6DFFA7747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22237A72-E997-4A00-9730-6BE6DFFA7747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22237A72-E997-4A00-9730-6BE6DFFA7747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341565E4-F088-4A43-8A81-A01148733218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341565E4-F088-4A43-8A81-A01148733218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341565E4-F088-4A43-8A81-A01148733218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341565E4-F088-4A43-8A81-A01148733218}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

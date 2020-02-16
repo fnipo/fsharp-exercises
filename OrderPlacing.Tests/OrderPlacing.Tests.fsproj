@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="OrderPlacingTests.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FsCheck.Xunit" Version="3.0.0-alpha4" />
+      <PackageReference Include="Unquote" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OrderPlacing\OrderPlacing.fsproj" />
+    </ItemGroup>
+
+</Project>
