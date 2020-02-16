@@ -30,5 +30,5 @@ let ``if product doesn't exist, validation fails`` () =
             orderLines = List.empty
         } : UnvalidatedOrder
     
-    raisesWith<exn> <@ Workflow.ValidateOrder.validateOrder checkProductCodeExists chec    kAddressExists unvalidatedOrder @>
+    raisesWith<exn> <@ Workflow.ValidateOrder.validateOrder checkProductCodeExists checkAddressExists unvalidatedOrder @>
                     (fun e -> <@ e.ToString() = "ProductCode must be valid" @>)
